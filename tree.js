@@ -10,7 +10,7 @@ class Tree{
         }
     this.image=loadImage("Plucking mangoes/tree.png")
     this.body=Matter.Bodies.rectangle(600,460,300,300,options)
-    World.add(world,this.body)
+    //World.add(world,this.body)
 
     }
 

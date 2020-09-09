@@ -29,7 +29,7 @@ function setup() {
 	mango4=new Mango(700,410,30,30);
 	ground=new Ground();
 	stone=new Stone();
-	slingShot = new SlingShot(stone.body,{x:150,y:550})
+	slingShot = new SlingShot(stone.body,{x:140,y:500})
 
 
 	Engine.run(engine);
@@ -50,6 +50,7 @@ function draw() {
   mango2.display();
   mango3.display();
   mango4.display();
+  slingShot.display();
 
   detectCollision(stone,mango);
   detectCollision(stone,mango1);
